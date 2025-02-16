@@ -8,7 +8,7 @@ function openMail() {
 }
 
 function openTelefon() {
-    window.location.href = "tel:+36123456789";
+    window.location.href = "tel:+36205001702";
 }
 
 function openFacebook() {
