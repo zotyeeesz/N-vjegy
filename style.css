@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #3bc570, #2462be);
+    padding: 10px;
+    color: #efefef;
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    letter-spacing: 5px;
+}
+
+#logo{
+    width: 15vh;
+    height: auto;
+    margin-bottom: 10px;
+    display: block; 
+    margin: 0px;
+    
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.csempek{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.elem{
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+    background: #e9e9e9;
+    min-width: 400px;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px; 
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.5), inset 3px 3px 5px rgba(255, 255, 255, 0.2);
+    transition:0.5s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.elem:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:0.5s;
+}
+
+.elem-logo{
+    width: 5vh;
+    
+    
+}
+
+.elem-szoveg{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-grow: 1; 
+    text-align: center; 
+    font-size: 22px;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
